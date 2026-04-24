@@ -218,7 +218,7 @@ safeship is **an alert system, not a full audit.** It does not catch:
 This repo also ships prose guides you can share with teammates / peers:
 
 - **[AI_CODING_SECURITY_GUIDE.md](./AI_CODING_SECURITY_GUIDE.md)** — 10-minute practical playbook for people building services with AI coding tools. Copy-paste prompts to brief your AI, per-feature one-liners, post-generation audit questions, pre-deploy manual checks, and 16 common "AI landmines" with before/after code. **Read this first if you're new to securing AI-generated code.** (Korean)
-- **[guides/](./guides/)** — 8 topic-specific deep dives, one file per feature area. Only read the one you're currently implementing:
+- **[guides/](./guides/)** — 13 topic-specific deep dives, one file per feature area. Only read the one you're currently implementing:
   - [01-payment-webhooks.md](./guides/01-payment-webhooks.md) — Stripe / Toss / LemonSqueezy / PayPal
   - [02-database.md](./guides/02-database.md) — Postgres / Supabase / MongoDB, RLS, IDOR
   - [03-auth-session.md](./guides/03-auth-session.md) — login, magic link, OAuth, sessions
@@ -227,6 +227,11 @@ This repo also ships prose guides you can share with teammates / peers:
   - [06-cors-api.md](./guides/06-cors-api.md) — CORS, CSRF, rate limit, error handling
   - [07-email-sms.md](./guides/07-email-sms.md) — SendGrid/Twilio, SPF/DKIM, toll fraud
   - [08-deployment-infra.md](./guides/08-deployment-infra.md) — Vercel/Railway/AWS, env vars, backups
+  - [09-mobile-apps.md](./guides/09-mobile-apps.md) — React Native / Flutter / iOS / Android, bundle secrets, SSL pinning, IAP
+  - [10-websocket-realtime.md](./guides/10-websocket-realtime.md) — Socket.io / SSE / Supabase Realtime, channel authz, rate limit
+  - [11-crypto-wallet.md](./guides/11-crypto-wallet.md) — Web3 dApp, wallet integration, smart contracts
+  - [12-compliance-privacy.md](./guides/12-compliance-privacy.md) — Korean PIPA + GDPR minimum compliance
+  - [13-incident-response.md](./guides/13-incident-response.md) — runbook for when something already went wrong
 - **[vibe-coding-security-checklist-v2.md](./vibe-coding-security-checklist-v2.md)** — comprehensive deploy-readiness checklist for Next.js + Supabase + Go + payments. Dense, exhaustive reference. (Korean)
 
 ---
