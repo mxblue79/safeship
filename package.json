@@ -1,0 +1,36 @@
+{
+  "name": "safeship",
+  "version": "0.1.0",
+  "description": "Pre-deploy security CLI for vibe-coded services. Static analysis + runtime probing + HTTP header audit in one command.",
+  "type": "module",
+  "bin": {
+    "safeship": "./safeship.js"
+  },
+  "scripts": {
+    "start": "node safeship.js all",
+    "static": "node safeship.js static",
+    "supabase": "node safeship.js supabase",
+    "http": "node safeship.js http"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "js-yaml": "^4.1.0"
+  },
+  "keywords": [
+    "security",
+    "scanner",
+    "vibe-coding",
+    "nextjs",
+    "supabase",
+    "pre-deploy",
+    "ci",
+    "rls"
+  ],
+  "license": "MIT",
+  "author": "Shinjae Lee <shinjaelee79@gmail.com>"
+}
